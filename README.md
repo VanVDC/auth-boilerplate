@@ -1,6 +1,6 @@
 # auth-boilerplate
 
-#### create config.js and mongoSecreKey.js files
+1. create config.js and mongoSecreKey.js files
   -----
   module.exports = {
   secret: "Makeup a key for jwt",
