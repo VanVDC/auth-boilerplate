@@ -1,8 +1,10 @@
 # auth-boilerplate
 
-#### Create config.js and mongoSecreKey.js files
-
--config.js 
+#### Start
+  1.npm install
+  2.Create config.js and mongoSecreKey.js files
+  ----
+  -config.js 
   Add the following line
   -----
   module.exports = {
@@ -20,3 +22,7 @@
 };
 
   -----
+  -----
+  3.npm run dev
+
+
