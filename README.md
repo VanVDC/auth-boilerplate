@@ -1,8 +1,8 @@
 # auth-boilerplate
 
 #### Start
-  1.npm install
-  2.Create config.js and mongoSecreKey.js files
+  1. npm install
+  2. Create config.js and mongoSecreKey.js files
   ----
   -config.js 
   Add the following line
@@ -23,6 +23,6 @@
 
   -----
   -----
-  3.npm run dev
+  3. npm run dev
 
 
