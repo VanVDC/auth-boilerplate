@@ -1,6 +1,6 @@
 # auth-boilerplate
 
-### Create config.js and mongoSecreKey.js files
+#### Create config.js and mongoSecreKey.js files
 
 config.js 
   Add the following line
