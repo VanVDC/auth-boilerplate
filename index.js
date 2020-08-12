@@ -9,12 +9,14 @@ const app = express();
 const router = require("./router");
 const mongoose = require("mongoose");
 const mongoURL = require("./mongoSecretKey");
+const cors = require("cors");
 
 //DB setup
 mongoose.connect(mongoURL.url);
 
 //App setup..getting express to work
 app.use(morgan("combined")); //logging framework middleware
+app.use(cors()); //fix the browser cors error allow any domains get requests.
 app.use(bodyParser.json({ type: "*/*" })); //use to parse incoming request. Turn into json.
 router(app);
 
